@@ -1,0 +1,26 @@
+img{
+	max-width: 100%;
+	cursor: pointer;
+}
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	
+	width: calc(100% - 50px);
+	height: calc(100% - 50px);
+	padding: 25px;
+	
+	background-color: rgba(255,255,255, 0.9);
+	opacity: 0;
+	visibility: hidden;
+  }
+  
+  .show {
+	opacity: 1;
+	visibility: visible;
+  }
